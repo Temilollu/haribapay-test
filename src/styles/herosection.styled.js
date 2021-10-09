@@ -14,8 +14,51 @@ export const HeroSectionWrapper = styled.div`
   .sub-text {
     width: 40%;
     font-size: 12px;
-    color: #a5a7b5;
+    color: #333758;
     line-height: 18px;
   }
-  /* #333758 */
+  .quick-info {
+    width: 25%;
+    margin-top: 2rem;
+    font-size: 18px;
+    img {
+      width: 20px;
+      vertical-align: middle;
+    }
+    .boldText {
+      color: #333758;
+    }
+    .normText {
+      color: #999999;
+    }
+  }
+  .last-text {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 12px;
+    color: #9d9d9d;
+  }
+  .section2 {
+    margin: 13rem 0;
+  }
+  .features {
+    width: 40%;
+    .first-link{
+      color: #6348e9;
+      background-color: #d8d1f9;
+      padding: 1px;
+    }
+    h1{
+      color: #333758;
+    }
+    p{
+      color: #656881;
+    }
+    a{
+      color: #3593ff;
+    }
+  }
+  .img2 {
+    width: 40%;
+  }
 `;
