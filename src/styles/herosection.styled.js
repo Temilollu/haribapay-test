@@ -19,15 +19,20 @@ export const HeroSectionWrapper = styled.div`
     width: 25%;
     margin-top: 2rem;
     font-size: 18px;
+    display: flex;
+    align-items: self-start;
     img {
-      width: 20px;
+      width: 25px;
       vertical-align: middle;
+      margin-right: 1rem;
     }
     .boldText {
       color: #333758;
+      font-size: 15px;
     }
     .normText {
       color: #999999;
+      font-size: 15px;
     }
   }
   .last-text {
@@ -62,7 +67,7 @@ export const HeroSectionWrapper = styled.div`
   .section3 {
     margin-bottom: 13rem;
     align-items: flex-start !important;
-    img {
+    .bigMan {
       width: 46%;
       height: 450px;
       border-radius: 10px;
@@ -82,26 +87,29 @@ export const HeroSectionWrapper = styled.div`
       color: #656881;
     }
   }
-  .more-info{
+  .more-info {
     margin: 2rem 0 13rem 0;
     padding: 1rem;
     width: 29%;
     border-radius: 10px;
     min-height: 225px;
     background-color: #f6fafb;
-    img{
+    img {
       width: 30px;
     }
-    h1{
+    h1 {
       font-size: 15px;
     }
-    a{
+    a {
       text-decoration: none;
       color: #1d8afc;
     }
   }
-  .trial{
+  .trial {
     width: 60%;
-  
+  }
+  .more {
+    width: 20px !important;
+    vertical-align: middle;
   }
 `;

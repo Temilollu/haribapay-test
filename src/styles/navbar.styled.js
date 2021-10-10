@@ -11,4 +11,7 @@ margin-bottom: 1rem;
     text-decoration: none;
     text-transform: capitalize;
 }
+img{
+    width: 40px;
+}
 `

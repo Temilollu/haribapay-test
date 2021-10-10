@@ -3,7 +3,7 @@ import { HeroSectionWrapper } from "../styles/herosection.styled";
 import { Button } from "./Button";
 import "../index.css";
 import { FlexBox } from "./FlexBox";
-import blueIcon from "../assets/443-4439064_blue-check-mark-icon-png-check-mark-circle.png";
+import blueIcon from "../assets/Coding_ChallengeFrontEnd2 (4).png";
 import img2 from "../assets/Coding_ChallengeFrontEnd2.png";
 import { Link } from "react-router-dom";
 import { Heading2, StyledLink, SubText } from "./CustomStyles";
@@ -12,6 +12,7 @@ import Checkbox from "./Checkbox";
 import web from "../assets/web.png";
 import scuad from "../assets/Coding_ChallengeFrontEnd2 (1).png";
 import orga from "../assets/Coding_ChallengeFrontEnd2 (2).png";
+import moreIcon from '../assets/Coding_ChallengeFrontEnd2 (4) copy.png'
 const info = [
   {
     boldText: "Quick setup. ",
@@ -64,8 +65,10 @@ const HeroSection = () => {
         {info.map((item) => (
           <div className="quick-info">
             <img src={blueIcon} alt="checkmark-icon" />
-            <span className="boldText">{item.boldText}</span>{" "}
-            <span className="normText">{item.normText}</span>
+            <div>
+              <span className="boldText">{item.boldText}</span>{" "}
+              <span className="normText">{item.normText}</span>
+            </div>
           </div>
         ))}
       </FlexBox>
@@ -84,13 +87,13 @@ const HeroSection = () => {
             Make a simple payment link in 5 seconds. Use our powerful features
             to customize your request
           </SubText>
-          <Link>Learn More</Link>
+          <Link>Learn More <img src={moreIcon} className='more' alt="more" /></Link>
         </div>
         <img src={img2} alt="" className="img2" />
       </FlexBox>
 
       <FlexBox className="section3">
-        <img src={bigMan} alt="" />
+        <img src={bigMan} alt="" className='bigMan' />
         <div className="main-div">
           <StyledLink color="#ee8141" bgColor="#fff3e5">
             Solutions
@@ -129,7 +132,7 @@ const HeroSection = () => {
               <Checkbox /> Mobile money
             </div>
           </FlexBox>
-          <Link>Create a free account</Link>
+          <Link>Create a free account  <img src={moreIcon} className='more' alt="more" /></Link>
         </div>
       </FlexBox>
       <div>
@@ -149,7 +152,7 @@ const HeroSection = () => {
             <img src={item.icon} alt="icon" />
             <Heading2>{item.ptext}</Heading2>
             <SubText>{item.htext}</SubText>
-            <Link>Learn More</Link>
+            <Link>Learn More <img src={moreIcon} className='more' alt="more" /></Link>
           </div>
         ))}
       </FlexBox>
