@@ -9,13 +9,11 @@ export const HeroSectionWrapper = styled.div`
     .payments {
       color: #0077ff;
       background-color: #e5f1ff;
+      border-bottom: 5px solid #b7d8ff;
     }
   }
   .sub-text {
     width: 40%;
-    font-size: 12px;
-    color: #333758;
-    line-height: 18px;
   }
   .quick-info {
     width: 25%;
@@ -43,22 +41,67 @@ export const HeroSectionWrapper = styled.div`
   }
   .features {
     width: 40%;
-    .first-link{
+    .first-link {
       color: #6348e9;
       background-color: #d8d1f9;
       padding: 1px;
     }
-    h1{
+    h1 {
       color: #333758;
     }
-    p{
+    p {
       color: #656881;
     }
-    a{
+    a {
       color: #3593ff;
     }
   }
   .img2 {
     width: 40%;
+  }
+  .section3 {
+    margin-bottom: 13rem;
+    align-items: flex-start !important;
+    img {
+      width: 46%;
+      height: 450px;
+      border-radius: 10px;
+    }
+    .main-div {
+      width: 46%;
+    }
+    input[type="checkbox"] {
+    }
+    .first-checkbox {
+      width: 60%;
+      margin: 0.5rem 0;
+      color: #656881;
+    }
+    .second-checkbox {
+      width: 35%;
+      color: #656881;
+    }
+  }
+  .more-info{
+    margin: 2rem 0 13rem 0;
+    padding: 1rem;
+    width: 29%;
+    border-radius: 10px;
+    min-height: 225px;
+    background-color: #f6fafb;
+    img{
+      width: 30px;
+    }
+    h1{
+      font-size: 15px;
+    }
+    a{
+      text-decoration: none;
+      color: #1d8afc;
+    }
+  }
+  .trial{
+    width: 60%;
+  
   }
 `;

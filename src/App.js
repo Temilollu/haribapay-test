@@ -8,6 +8,10 @@ function App() {
       <Navbar/>
       <hr />
       <HeroSection/>
+      <hr />
+      <div style={{margin : '1.5rem 0'}}></div>
+      <Navbar/>
+    
       </Router>
   );
 }
