@@ -6,6 +6,7 @@ export const HeroSectionWrapper = styled.div`
     font-size: 50px;
     line-height: 70px;
     color: #333758;
+    font-weight: bold;
     .payments {
       color: #0077ff;
       background-color: #e5f1ff;
